@@ -17,7 +17,7 @@ Gauss-Seidel desde 0 con 81 iteraciones reproduce la tabla del profesor; la solu
 2. Cambia solo las celdas amarillas: generación de calor `H` por nodo, conductividad `k`, temperaturas de frontera, método (Jacobi o Gauss-Seidel) e iteración a mostrar.
 3. Compara la gráfica de la iteración elegida con la solución directa (hoja **Directo**): sirve para ver cuántas iteraciones necesita cada método para converger.
 
-Para usar tus propios datos, sustituye `H` y `k`; el número de nodos (11) está fijo en el libro, y para cambiarlo hay que editar `generar_excel.py` y regenerarlo.
+Para usar tus propios datos, sustituye `H` y `k`. El libro está diseñado con 11 nodos (10 intervalos) fijos.
 
 ## Licencia
 Código y hoja bajo licencia MIT (ver [`LICENSE`](LICENSE)).
